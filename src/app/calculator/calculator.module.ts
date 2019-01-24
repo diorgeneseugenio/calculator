@@ -3,9 +3,14 @@ import { CommonModule } from '@angular/common';
 import { CalculatorComponent } from './components';
 
 @NgModule({
-  declarations: [CalculatorComponent],
+  declarations: [
+    CalculatorComponent
+  ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    CalculatorComponent
   ]
 })
 export class CalculatorModule { }
